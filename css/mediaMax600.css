@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     nav {
       position: fixed;
       z-index: 3;
@@ -10,7 +10,7 @@
       display: block;
       position: absolute;
       cursor: pointer;
-      right: 0;
+      right: 10px;
       top: 10%;
       transform: translate(-5%, -50%);
       z-index: 2;
@@ -101,7 +101,7 @@
 }
 .eleccion{
     top:460px;
-    left:10px;
+    left:0px;
 }
 
 .textoFinal
@@ -112,5 +112,9 @@
 }
 .copiado{
     top:618px;
-    margin: 10px 65px;
+    margin: 10px 30px;
+}
+
+.copiado iframe{
+  margin-top: 15px
 }
