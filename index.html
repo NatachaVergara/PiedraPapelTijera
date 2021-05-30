@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/estilosNav.css">
+  <link rel="stylesheet" href="./css/serviceSection.css">
+  <link rel="stylesheet" href="./css/mediaMax600.css">
+  <title>Piedra Papel o tijera</title>
+
+
+
+</head>
+<body>
+<header>
+<nav class="nav" id="navbar">
+  <div class="log" id="logo">
+    <h1>A jugar  </h1>
+  </div>
+  <div class="hamburger" id="hamburger">
+    <div id="line1"></div>
+    <div id="line2"></div>
+    <div id="line3"></div>
+  </div>
+  <ul class="nav-links">
+   <li><a href="#" id="link0">Portfolio</a></li>
+   <li><a href="#" id="link1">Pequeños proyectos</a></li>
+   <li><a href="#" id="link2">Comenzando con html</a></li>      
+  </ul>
+</nav>
+</header>
+
+
+
+
+<!--Comienzo del juego-->
+<section class="sectionContador">
+  <div class="contador">
+    <span id="contador-usuario" class="usuario">Usuario</span>    
+    <span id="contadorUsuario"class="contadorIzq">0</span>
+    <span id="contador-igual"class="igual">:</span>
+    <span id="contadorMaquina"class="contadorDer">0</span>
+    <span id="contador-maquina"class="compu">Máquina</span>
+</section>
+<section class="sectionResultado">
+<p class="texto">Que comience el juego</p>
+</section>
+
+<section class="sectionJuego">
+  
+  <div class="izq"></div>
+  <div class="der"></div>
+</section>
+
+<section class="eleccion">
+  <div id="piedra" class="piedra eleccionItem"><i class="fas fa-hand-rock"></i></div>
+  <div id="papel" class="papel eleccionItem"><i class="fas fa-hand-paper"></i></div>
+  <div id="tijera" class="tijera eleccionItem"><i class="fas fa-hand-scissors"></i></div>
+</section>
+
+<section class="textoFinal">
+  <h1>Elige tu movimiento</h1>
+</section>
+
+
+
+
+
+
+
+
+
+
+<section class="copiado">
+  <div>
+    <h1>Idea original de freeCodeCamp.org : Tutorial de desarrollo web - JavaScript, HTML, CSS - Rock Paper Scissors Game
+       </h1>
+    <iframe width="200" height="200" src="https://www.youtube.com/embed/jaVNP3nIAv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+
+</section>
+<script src="https://kit.fontawesome.com/85b90cb227.js" crossorigin="anonymous"></script>
+
+<script src="./js/scriptNav.js"></script>
+
+<script src="./js/scriptJuego.js"></script>
+</body>
+</html>
