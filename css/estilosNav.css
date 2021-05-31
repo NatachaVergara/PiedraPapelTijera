@@ -39,6 +39,7 @@ section::before {
 body{
   overflow-x: hidden;
   background-color: rgb(35, 109, 165);
+  position: relative;
 }
 
 nav{
@@ -52,14 +53,15 @@ nav{
 
 .logo{
   padding: 1vh 2vw;  
+  margin-top: 5px;
   text-align: center;
   display: flex;
   align-items:center;
-  color:#fff;
+  color:#111;
   text-transform: uppercase;
   width: 25rem;
   font-family:"Raleway", sans-serif;
-  font-weight: 800;
+  font-size: 1rem;
 }
 .log h1{
   margin-left: 10px;

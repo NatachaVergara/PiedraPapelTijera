@@ -1,4 +1,5 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 645px) 
+{
     nav {
       background-color:#111;
       position: 10px;
@@ -80,7 +81,7 @@
     li.fade {
       opacity: 1;
     }
-  }
+
   /*Animating Hamburger Icon on Click*/
   .toggle #line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
@@ -140,4 +141,5 @@ footer{
   color:aliceblue;
   background-color:#111;
 
+}
 }
