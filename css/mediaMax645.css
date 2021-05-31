@@ -1,7 +1,7 @@
 @media screen and (max-width: 645px) 
 {
     nav {
-      width: 100%;
+      width: 105%;
       background-color:#111;
       position: 10px;
       z-index: 3;
@@ -109,7 +109,7 @@
   }
 
   .division{
-    width:100%;
+    width:105%;
   }
 
 
@@ -118,7 +118,7 @@
   margin-top: 15px
 }
 footer{
-  width:100%;
+  width:105%;
 }
 
 }
